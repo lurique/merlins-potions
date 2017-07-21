@@ -1,0 +1,11 @@
+.potions {
+	@include margin-direction('y', 60px);
+
+	.potion {
+		margin-bottom: 100px;
+
+		img {
+			width: 220px;
+		}
+	}
+}

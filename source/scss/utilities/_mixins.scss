@@ -1,0 +1,48 @@
+// Defines width and height in a single line
+@mixin size($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+// Defines the margin direction and attribute the size to both sizes
+@mixin margin-direction($direction, $size) {
+	@if $direction == 'x' {
+		margin-left: $size;
+		margin-right: $size;
+	} @else if $direction == 'y' {
+		margin-top: $size;
+		margin-bottom: $size;
+	}
+}
+
+// Defines the padding direction and attribute the size to both sizes
+@mixin padding-direction($direction, $size) {
+	@if $direction == 'x' {
+		padding-left: $size;
+		padding-right: $size;
+	} @else if $direction == 'y' {
+		padding-top: $size;
+		padding-bottom: $size;
+	}
+}
+
+// Creates a simple arrow
+@mixin arrow-direction($direction, $size, $color) {
+	@if $direction == 'top' {
+		border-left: $size solid transparent;
+		border-right: $size solid transparent;
+		border-bottom: $size solid $color;
+	} @else if $direction == 'right' {
+		border-top: $size solid transparent;
+		border-bottom: $size solid transparent;
+		border-left: $size solid $color;
+	} @else if $direction == 'bottom' {
+		border-left: $size solid transparent;
+		border-right: $size solid transparent;
+		border-top: $size solid $color;
+	} @else if $direction == 'left' {
+		border-top: $size solid transparent;
+		border-bottom: $size solid transparent;
+		border-right: $size solid $color;
+	}
+}

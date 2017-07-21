@@ -1,0 +1,40 @@
+#nav-primary {
+	background: $white;
+}
+
+#nav-secondary {
+	@include padding-direction('y', 10px);
+	background: $purple;
+	height: auto;
+
+	.nav-item {
+		@include padding-direction('x', 20px);
+		border-radius: 5px;
+		color: $white;
+		font-style: italic;
+
+		.arrow-down {
+			@include arrow-direction('bottom', 5px, $white);
+			margin-left: 10px;
+		}
+
+		&.active {
+			background: $dark-purple;
+		}
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+
+	.nav-right {
+		p {
+			align-self: center;
+			color: $white;
+			opacity: 0.6;
+		}
+	}
+
+	// Custom fix for framework
+	.nav-left { flex-basis: initial; }
+}

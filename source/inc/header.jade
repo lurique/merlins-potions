@@ -1,0 +1,31 @@
+nav#nav-primary.nav
+	div.container
+		div.nav-left
+			a.nav-item
+				img(src="" alt="Merlin's Potions Logo")
+
+
+		div.nav-center
+			form(method="GET")
+				input.input(type="text")
+
+		div.nav-right
+			a.nav-item
+				p Free shipping on orders over $50
+			a.nav-item: span Bag icon
+				p Bag: <span id="products-count">1</span>
+
+nav#nav-secondary.nav.font-droidsans
+	div.container
+		div.nav-left
+			a.nav-item Potions <span class="arrow-down"></span>
+			a.nav-item Ingredients <span class="arrow-down"></span>
+			a.nav-item Books <span class="arrow-down"></span>
+			a.nav-item Supplies <span class="arrow-down"></span>
+			a.nav-item Charms <span class="arrow-down"></span>
+			a.nav-item.active Clearance!
+
+		div.nav-right
+			a.nav-item Sign In
+			p or
+			a.nav-item Sign Up
