@@ -1,0 +1,26 @@
+CACHE MANIFEST
+
+CACHE:
+./index.html
+./js/script.min.js
+./img/arrow-down.svg
+./img/arrow-right.svg
+./img/ok.svg
+./img/ativo_pb.png
+./img/ativodobem_pb.png
+./img/ativosaude_pb.png
+./img/bravusrace_pb.png
+./img/circuitodasestacoes_pb.png
+./img/matonin_pb.png
+./img/mediaonboard_pb.png
+./img/praviajar_pb.png
+./css/bulma.min.css
+./css/style.min.css
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
+
+#hash: 5bb26e876b1233e53cf3b4fc6efffac33ceb68cac1233a6c4518f6f97dc10123

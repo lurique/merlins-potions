@@ -1,0 +1,16 @@
+{
+	"short_name": "Lucas Henrique",
+	"name": "Lucas Henrique - Front-end Developer",
+	"icons": [
+		{
+			"src": "img/favicon/android-icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	],
+	"start_url": "index.html",
+	"display": "standalone",
+	"orientation": "portrait",
+	"theme_color": "#131313",
+	"background_color": "#131313"
+}
